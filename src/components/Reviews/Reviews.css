@@ -1,0 +1,29 @@
+.name {
+    margin-bottom: 36px;
+    text-align: center;
+    color: #ED4B5E;
+    text-transform: uppercase;
+}
+
+.review {
+    padding: 24px;
+    background-color: #FFEFF0;
+    border-radius: 24px;
+}
+
+.reviewDescr {
+    margin-bottom: 42px;
+    color: #222222;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+.tagUser {
+    display: flex;
+    gap: 8px;
+}
+
+.reviewName {
+    color: #565148;
+    font-size: 16px;
+}

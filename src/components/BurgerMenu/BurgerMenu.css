@@ -1,0 +1,69 @@
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    color: #222222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    /* висота на весь екран */
+    width: 100%;
+    /* ширина на весь екран */
+    /* padding: 30px 20px; */
+    z-index: 1000;
+    visibility: hidden;
+    display: block;
+    opacity: 0;
+    /* Початковий стан закритого бургер-меню */
+}
+
+.burger-menu.open {
+    /* Стилі для відкритого бургер-меню */
+
+    visibility: visible;
+    opacity: 1;
+}
+
+.burger-content {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 62px;
+}
+
+.burger-logo {
+    margin: 0;
+    /* flex-grow: 1; */
+    /* Розтягує логотип, щоб він займав всю доступну ширину */
+    margin-right: auto;
+    color: #ED4B5E;
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+
+.burger-close {
+    min-width: 18px;
+    min-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    flex-shrink: 0;
+    border: 2px solid #222222;
+    border-radius: 25%;
+    /* padding: 1px; */
+}
+
+.burger-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: -1px;
+}

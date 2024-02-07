@@ -1,0 +1,28 @@
+.about {
+    margin-bottom: 80px;
+}
+
+.aboutName {
+    text-align: center;
+    color: #222222;
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.picture {
+    padding: 24px;
+    color: white;
+    background-color: #ED4B5E;
+    border-radius: 24px;
+}
+
+.picName {
+    font-size: 24;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.picDescr {
+    font-size: 16px;
+}
