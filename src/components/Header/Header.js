@@ -12,16 +12,15 @@ function Header() {
   };
   return (
     <header className="header">
-      <div className="lomen">
-        <img src={logo} alt="Logo" />
-        <div className="burgerMenu">
-          <p className="menu">MENU</p>
+      <div className="logo-menu">
+        <img src={logo} alt="CONFETTI" className="logo" />
+        <div className="menu-icon">
+          <div className="menu">MENU</div>
           <button className="burger-menu-button" onClick={toggleBurgerMenu}>
             <img src={menu} alt="Menu" />
           </button>
         </div>
       </div>
-      {/* <BurgerMenu /> */}
       <BurgerMenu isOpen={burgerMenuOpen} onClose={toggleBurgerMenu} />
     </header>
   );

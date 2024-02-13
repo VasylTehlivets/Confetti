@@ -14,7 +14,7 @@ const BurgerMenu = ({ isOpen, onClose }) => {
         &#10005;
       </div> */}
       <div className="burger-content">
-        <h1 className="burger-logo">CONFETTI</h1>
+        <h1 className="burger-menu-logo">CONFETTI</h1>
         <div className="burger-close" onClick={onClose}>
           &#10005;
         </div>
