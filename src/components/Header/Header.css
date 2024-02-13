@@ -9,13 +9,28 @@
     z-index: 1000;
 } */
 
-/* .logo-menu {
+/* .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    color: #222222;
+    transition: transform 0.3s ease;
+} */
+
+.header.hide {
+    transform: translateY(-100%);
+}
+
+.logo-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.burger-menu {
+.menu-icon {
     display: flex;
 }
 
@@ -33,48 +48,8 @@
     padding-left: 0;
 }
 
-.burger-menu-button svg {
+/* .burger-menu-button svg {
     background-color: #DCEFD8;
     border-radius: 50%;
     padding: 12px;
 } */
-
-.logo-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    width: 100px;
-    /* Змініть ширину логотипу відповідно до вашого дизайну */
-}
-
-.menu-icon {
-    display: flex;
-    align-items: center;
-}
-
-.menu {
-    margin-right: 8px;
-    color: #222222;
-    /* Змініть колір, якщо потрібно */
-    font-size: 24px;
-    /* Змініть розмір шрифту, якщо потрібно */
-    text-transform: uppercase;
-}
-
-.burger-menu-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding-left: 0;
-}
-
-.burger-menu-button img {
-    background-color: #DCEFD8;
-    border-radius: 50%;
-    padding: 12px;
-    width: 30px;
-    /* Змініть розмір іконки меню відповідно до вашого дизайну */
-}
