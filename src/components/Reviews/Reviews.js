@@ -1,11 +1,13 @@
 import React from "react";
 import "./Reviews.css";
 import user from "../../assets/tag-user.svg";
+import Slider from "../Slider/Slider";
 
 const Reviews = () => {
   return (
     <div id="review" className="">
       <h2 className="name">Recenzje</h2>
+      <Slider />
       <div className="review">
         <p className="reviewDescr">
           Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
