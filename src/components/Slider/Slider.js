@@ -26,13 +26,28 @@ function Slider() {
       {/* Слайди */}
       <div className="slides">
         <div className={`slide ${currentSlide === 0 ? "active" : ""}`}>
-          Slide 1 Content
+          <p className="reviewDescr">
+            Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
+            <br />
+            ustawili te stoły 🥰 ale sam <br />
+            klimat i dekoracja robiła <br /> meegaaa wrażenie! 
+          </p>
         </div>
         <div className={`slide ${currentSlide === 1 ? "active" : ""}`}>
-          Slide 2 Content
+          <p className="reviewDescr">
+            Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
+            <br />
+            ustawili te stoły 🥰 ale sam <br />
+            klimat i dekoracja robiła <br /> meegaaa wrażenie! 
+          </p>
         </div>
         <div className={`slide ${currentSlide === 2 ? "active" : ""}`}>
-          Slide 3 Content
+          <p className="reviewDescr">
+            Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
+            <br />
+            ustawili te stoły 🥰 ale sam <br />
+            klimat i dekoracja robiła <br /> meegaaa wrażenie! 
+          </p>
         </div>
       </div>
 
