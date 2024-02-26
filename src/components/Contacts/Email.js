@@ -92,21 +92,4 @@ const Contacts = () => {
             value={formData.email}
             onChange={handleChange}
           />
-          <p className="error">{formErrors.emailError}</p>
-        </div>
-        <div className="form-group">
-          <label htmlFor="message">Повідомлення</label>
-          <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-          ></textarea>
-        </div>
-        <button type="submit">Відправити</button>
-      </form>
-    </div>
-  );
-};
-
-export default Contacts;
+  
