@@ -68,28 +68,5 @@ const Contacts = () => {
     }
   };
 
-  return (
-    <div id="contact" className="contacts">
-      <h2 className="name">Контакти</h2>
-      <form onSubmit={handleSubmit} className="contact-form">
-        <div className="form-group">
-          <label htmlFor="name">Ім'я *</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-          />
-          <p className="error">{formErrors.nameError}</p>
-        </div>
-        <div className="form-group">
-          <label htmlFor="email">E-mail *</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-          />
+  
   
