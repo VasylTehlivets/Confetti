@@ -5,14 +5,11 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const BurgerMenu = ({ isOpen, onClose }) => {
   const scrollToTop = () => {
     scroll.scrollToTop();
-    onClose(); // Закриваємо бургер-меню після кліку на пункт
+    onClose();
   };
 
   return (
     <div className={`burger-menu ${isOpen ? "open" : ""}`}>
-      {/* <div className="burger-close" onClick={onClose}>
-        &#10005;
-      </div> */}
       <div className="burger-content">
         <h1 className="burger-menu-logo">CONFETTI</h1>
         <div className="burger-close" onClick={onClose}>
