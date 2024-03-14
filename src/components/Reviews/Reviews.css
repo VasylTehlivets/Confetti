@@ -27,3 +27,20 @@
     color: #565148;
     font-size: 16px;
 }
+
+.pagination {
+    display: flex;
+    gap: 8px;
+}
+
+.pagination button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    border: none;
+}
+
+.pagination button.active {
+    background-color: #000000;
+}
