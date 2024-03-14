@@ -11,26 +11,28 @@
     border-radius: 24px;
 }
 
-.reviewDescr {
+.review-descr {
     margin-bottom: 42px;
     color: #222222;
     font-size: 18px;
     letter-spacing: -1px;
 }
 
-.tagUser {
+.tagU-uer {
     display: flex;
     gap: 8px;
 }
 
-.reviewName {
+.review-name {
     color: #565148;
     font-size: 16px;
 }
 
 .pagination {
     display: flex;
+    justify-content: center;
     gap: 8px;
+    margin-top: 20px;
 }
 
 .pagination button {
