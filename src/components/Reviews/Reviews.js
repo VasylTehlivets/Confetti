@@ -91,6 +91,8 @@ import React, { useState } from "react";
 import "./Reviews.css";
 import user1 from "../../assets/tag-user.svg";
 import user2 from "../../assets/tag-user.svg";
+import user3 from "../../assets/tag-user.svg";
+import user4 from "../../assets/tag-user.svg";
 
 const Reviews = () => {
   const [activeSlide, setActiveSlide] = useState(1); // початковий активний слайд
@@ -110,14 +112,14 @@ const Reviews = () => {
         {activeSlide === 1 && (
           <div className="slide">
             <img src={user1} alt="user-1" />
-            <p className="reviewDescr">
+            <p className="review-descr">
               Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
               <br />
               ustawili te stoły 🥰 ale sam <br />
               klimat i dekoracja robiła <br /> meegaaa wrażenie!
             </p>
-            <div className="tagUser">
-              <h3 className="reviewName">Aleksandra Murawska</h3>
+            <div className="tag-user">
+              <h3 className="review-name">Aleksandra Murawska</h3>
             </div>
           </div>
         )}
@@ -126,9 +128,29 @@ const Reviews = () => {
         {activeSlide === 2 && (
           <div className="slide">
             <img src={user2} alt="user-2" />
-            <p className="reviewDescr">Інший відгук тут...</p>
-            <div className="tagUser">
-              <h3 className="reviewName">Ім'я користувача</h3>
+            <p className="review-descr">Інший відгук тут...</p>
+            <div className="tag-user">
+              <h3 className="review-name">Ім'я користувача</h3>
+            </div>
+          </div>
+        )}
+        {/* Третій слайд */}
+        {activeSlide === 3 && (
+          <div className="slide">
+            <img src={user3} alt="user-3" />
+            <p className="review-descr">Інший відгук тут...</p>
+            <div className="tag-user">
+              <h3 className="review-name">Ім'я користувача</h3>
+            </div>
+          </div>
+        )}
+        {/* Четвертий слайд */}
+        {activeSlide === 4 && (
+          <div className="slide">
+            <img src={user4} alt="user-4" />
+            <p className="review-descr">Інший відгук тут...</p>
+            <div className="tag-user">
+              <h3 className="review-name">Ім'я користувача</h3>
             </div>
           </div>
         )}
@@ -143,6 +165,14 @@ const Reviews = () => {
         <button
           className={activeSlide === 2 ? "active" : ""}
           onClick={() => changeSlide(2)}
+        ></button>
+        <button
+          className={activeSlide === 3 ? "active" : ""}
+          onClick={() => changeSlide(3)}
+        ></button>
+        <button
+          className={activeSlide === 4 ? "active" : ""}
+          onClick={() => changeSlide(4)}
         ></button>
         {/* Додайте кнопки для більшої кількості слайдів */}
       </div>
