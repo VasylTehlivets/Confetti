@@ -98,6 +98,7 @@ const Reviews = () => {
         {/* Другий слайд */}
         {activeSlide === 2 && (
           <div className="slide">
+            <img src={user2} alt="user-2" />
             <p className="review-descr">
               Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
               <br />
