@@ -140,67 +140,6 @@ const Reviews = () => {
             </div>
           </div>
         )}
-        {/* Перший слайд */}
-        {activeSlide === 1 && (
-          <div className="slide">
-            <img src={user1} alt="user-1" />
-            <p className="review-descr">
-              Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
-              <br />
-              ustawili te stoły 🥰 ale sam <br />
-              klimat i dekoracja robiła <br /> meegaaa wrażenie!
-            </p>
-            <div className="tag-user">
-              <h3 className="review-name">Aleksandra Murawska</h3>
-            </div>
-          </div>
-        )}
-
-        {/* Другий слайд */}
-        {activeSlide === 2 && (
-          <div className="slide">
-            <img src={user2} alt="user-2" />
-            <p className="review-descr">
-              Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
-              <br />
-              ustawili te stoły 🥰 ale sam <br />
-              klimat i dekoracja robiła <br /> meegaaa wrażenie!
-            </p>
-            <div className="tag-user">
-              <h3 className="review-name">Aleksandra Murawska</h3>
-            </div>
-          </div>
-        )}
-        {/* Третій слайд */}
-        {activeSlide === 3 && (
-          <div className="slide">
-            <img src={user3} alt="user-3" />
-            <p className="review-descr">
-              Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
-              <br />
-              ustawili te stoły 🥰 ale sam <br />
-              klimat i dekoracja robiła <br /> meegaaa wrażenie!
-            </p>
-            <div className="tag-user">
-              <h3 className="review-name">Aleksandra Murawska</h3>
-            </div>
-          </div>
-        )}
-        {/* Четвертий слайд */}
-        {activeSlide === 4 && (
-          <div className="slide">
-            <img src={user4} alt="user-4" />
-            <p className="review-descr">
-              Jeszcze raz wielkie dzięki! <br /> Ciężko nam było foty robić jak
-              <br />
-              ustawili te stoły 🥰 ale sam <br />
-              klimat i dekoracja robiła <br /> meegaaa wrażenie!
-            </p>
-            <div className="tag-user">
-              <h3 className="review-name">Aleksandra Murawska</h3>
-            </div>
-          </div>
-        )}
       </div>
 
       {/* Пагінація */}
